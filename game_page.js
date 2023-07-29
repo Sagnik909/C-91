@@ -8,7 +8,7 @@ player1_n = localStorage.getItem("playerName_1");
     document.getElementById("player2_score").innerHTML = player2_s;
     document.getElementById("player_question").innerHTML = "Question Turn : " + player1_n;
     document.getElementById("player_answer").innerHTML = "Answer Turn : " + player2_n;
-    
+
 function send(){
     number1 = document.getElementById("number_1").value;
     number2 = document.getElementById("number_2").value;
